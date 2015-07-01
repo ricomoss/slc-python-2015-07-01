@@ -2,7 +2,9 @@
 import sys
 import os
 
-from wrappers.weather import WeatherApi
+from wrappers.weather_api import WeatherApi
+
+# These imports are for use as examples to show how to force a klass instance
 from wrappers.open_weather_map import OpenWeatherMap
 from wrappers.weather_underground import WeatherUnderground
 

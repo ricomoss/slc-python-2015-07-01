@@ -7,9 +7,6 @@ import requests
 from wrappers.exceptions import RandomWrapperException
 from wrappers.interface import WeatherInterface
 
-import pprint
-pp = pprint.PrettyPrinter(indent=4)
-
 
 class WeatherUnderground(WeatherInterface):
     API_URL = 'http://api.wunderground.com'
