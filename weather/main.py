@@ -33,7 +33,7 @@ if __name__ == '__main__':
         weather_help()
 
     postal_code = sys.argv[1]
-    if not postal_code.isdigit() and len(postal_code) == 5:
+    if not postal_code.isdigit() or len(postal_code) != 5:
         weather_help()
 
     display_weather_info(postal_code)
