@@ -1,5 +1,5 @@
-SLC Python 2015-07-01
-=====================
+Polymorphism & Handling Dead Services
+=====================================
 
 This repository was created to support the presentation given at the Salt Lake City Python Meetup on July 1st, 2015.  You can find the presentation .pdf included in this repository.
 
