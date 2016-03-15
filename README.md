@@ -40,21 +40,21 @@ Notes:
 
 6.  Create your virtualenv (for Python 3)::
 
-        $ mkvirtualenv slc_python -p /usr/bin/python3
+        $ mkvirtualenv <virtualenv name> -p /usr/bin/python3
 
 
-7.  Add the following to the end of the file **~/.virtualenvs/owf/bin/postactivate**::
+7.  Add the following to the end of the file **~/.virtualenvs/\<virtualenv name\>/bin/postactivate**::
 
         export PYTHONPATH=~/Projects/slc-python-2015-07-01
 
 8.  Activate the virtualenv::
 
-        $ workon slc_python
+        $ workon <virtualenv name>
 
 9.  Install the required Python libraries (ensure you're within the new virtual environment).::
 
-        (slc_python)$ pip install -r ~/slc-python-2015-07-01/requirements.pip
+        (<virtualenv name>)$ pip install -r ~/slc-python-2015-07-01/requirements.pip
 
 10.  You can now run the **main.py** script.::
 
-        (slc_python)$ python ~/slc-python-2015-07-01/weather/main.py
+        (<virtualenv name>)$ python ~/slc-python-2015-07-01/weather/main.py
