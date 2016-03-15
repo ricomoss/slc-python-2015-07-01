@@ -34,8 +34,8 @@ if __name__ == '__main__':
     if len(sys.argv) != 2:
         weather_help()
 
-    postal_code = sys.argv[1]
-    if not postal_code.isdigit() or len(postal_code) != 5:
+    entered_postal_code = sys.argv[1]
+    if not entered_postal_code.isdigit() or len(entered_postal_code) != 5:
         weather_help()
 
-    display_weather_info(postal_code)
+    display_weather_info(entered_postal_code)
