@@ -53,8 +53,8 @@ Notes:
 
 9.  Install the required Python libraries (ensure you're within the new virtual environment).:
 
-        (<virtualenv name>)$ pip install -r ~/slc-python-2015-07-01/requirements.pip
+        (<virtualenv name>)$ pip install -r ~/Projects/slc-python-2015-07-01/requirements.pip
 
 10.  You can now run the **main.py** script.:
 
-        (<virtualenv name>)$ python ~/slc-python-2015-07-01/weather/main.py
+        (<virtualenv name>)$ python ~/Projects/slc-python-2015-07-01/weather/main.py
